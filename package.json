@@ -1,0 +1,46 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Initialize basic folder structure for REST API",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "dev:test": "NODE_ENV=test ./node_modules/nodemon/bin/nodemon.js ./src/index.js",
+    "test:api": "./node_modules/cypress/bin/cypress open",
+    "test": "echo \\\"Error: no tests specified\\\" && exit 1"
+  },
+  "keywords": [
+    "starter",
+    "nodejs",
+    "folder structure"
+  ],
+  "author": "team4js",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.0.1",
+    "nodemon": "^2.0.2",
+    "pino-tee": "^0.3.0",
+    "xlsx": "^0.15.5"
+  },
+  "dependencies": {
+    "@guivic/fastify-socket.io": "^0.1.1",
+    "awilix": "^4.2.3",
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "fastify": "^2.11.0",
+    "fastify-cookie": "^3.5.0",
+    "fastify-cors": "^3.0.1",
+    "fastify-helmet": "^3.0.2",
+    "fastify-jwt": "^1.2.1",
+    "fastify-oas": "^2.5.0",
+    "fastify-plugin": "^1.6.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.7",
+    "mongoose-update-if-current": "^1.3.3",
+    "pino-pretty": "^3.5.0",
+    "socket.io": "^2.3.0"
+  }
+}
