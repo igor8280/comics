@@ -23,7 +23,7 @@
     "cypress": "^4.0.1",
     "nodemon": "^2.0.2",
     "pino-tee": "^0.3.0",
-    "xlsx": "^0.15.5"
+    "xlsx": "^0.17.0"
   },
   "dependencies": {
     "@guivic/fastify-socket.io": "^0.1.1",
